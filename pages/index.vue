@@ -1,15 +1,19 @@
 <template>
   <div class="container max-w-lg mx-auto px-4">
     <div class="pt-10">
+      <img src="logo.svg" class="mx-auto h-32 mb-2 w-auto" alt="" />
       <p class="text-4xl mb-4 font-bold text-gray-700 text-center">
         Ramadan Table
       </p>
       <p class="text-gray-700 mb-4 text-xl">
         Ramadan table is a open source project by Fayaz. If you need your city
         to be showcased please send me a google sheet of your fasting time table
-        or a photo, I will add them to this list.
+        or a photo, I will add them to the city list.
       </p>
-      <nuxt-link to="/addcity" class="text-indigo-600 underline">
+      <nuxt-link
+        to="/addcity"
+        class="text-indigo-600 block underline text-center mb-4"
+      >
         Submit your city
       </nuxt-link>
       <ul class="bg-gray-200 text-gray-700 p-4 rounded-lg shadow">
