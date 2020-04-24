@@ -6,24 +6,31 @@
         Ramadan Table
       </p>
       <p class="text-gray-700 mb-4 text-xl">
-        Ramadan table is a open source project by Fayaz. If you need your city
-        to be showcased please send me a google sheet of your fasting time table
-        or a photo, I will add them to the city list.
+        Ramadan table is a
+        <a
+          href="https://github.com/fayazara/ramadan-table"
+          class="text-indigo-600 underline"
+          target="_blank"
+          >open source</a
+        >
+        project by Fayaz. If you need your city to be showcased please send me a
+        google sheet of your fasting time table or a photo, I will add them to
+        the city list.
       </p>
       <nuxt-link
         to="/addcity"
         class="text-indigo-600 block underline text-center mb-4"
       >
-        Submit your city
+        Submit your city or contact me
       </nuxt-link>
       <ul class="bg-gray-200 text-gray-700 p-4 rounded-lg shadow">
         <nuxt-link
           :to="city"
-          class="my-4 block cursor-pointer bg-gray-300 rounded p-3 transition-colors duration-300 hover:bg-indigo-500 hover:text-white"
+          class="my-2 block cursor-pointer bg-gray-400 rounded p-3 transition-colors duration-300 hover:bg-indigo-500 hover:text-white"
           v-for="(city, n) in cities"
           :key="n"
         >
-          <p class="capitalize">{{ city }}</p>
+          <p class="capitalize">{{ city }} time table</p>
         </nuxt-link>
       </ul>
     </div>
