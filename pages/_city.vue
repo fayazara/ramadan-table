@@ -47,18 +47,18 @@
         </div>
       </div>
     </section>
-    <!-- <section class="asd">
+    <section class="asd">
       <counter :day="selectedDay" />
-    </section> -->
+    </section>
   </main>
 </template>
 
 <script>
-// import counter from "~/components/counter";
+import counter from "~/components/counter";
 export default {
-  // components: {
-  //   counter
-  // },
+  components: {
+    counter
+  },
   data() {
     return {
       time_table: null,

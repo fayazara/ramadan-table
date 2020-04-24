@@ -15,7 +15,7 @@ export default {
   env: {
     baseURL: (process.env.NODE_ENV === 'production' ? 'https://ramadan-table.now.sh' : 'http://localhost:3000')
   },
-  loading: { color: '#fff' },
+  loading: { color: '#667eea' },
   css: [
   ],
   plugins: [

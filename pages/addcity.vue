@@ -1,9 +1,8 @@
 <template>
   <div class="pt-20 px-4 max-w-lg mx-auto">
     <p class="text-center mb-2 text-2xl text-gray-700 font-bold">
-      Coming Soon, you can connect with me on telegram if you need it to be
-      added urgently, or if you want to contact me to work/contribute on this
-      small project.
+      I will be adding a form to upload the time table soon. Contact me to work/contribute on this
+      small project I made, I will be available on telegram. <br> <br> If you are able code, please raise a pull request along with your city's json array of times in our <a class="text-text-indigo-600 underline" href="https://github.com/fayazara/ramadan-table" target="_blank">github repo</a>.
     </p>
     <a
       href="https://t.me/fayazara"
