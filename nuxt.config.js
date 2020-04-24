@@ -12,6 +12,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  env: {
+    baseURL: (process.env.NODE_ENV === 'production' ? 'https://ramadan-table.now.sh/' : 'http://localhost:3000')
+  },
   loading: { color: '#fff' },
   css: [
   ],
