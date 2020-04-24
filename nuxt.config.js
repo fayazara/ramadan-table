@@ -13,7 +13,7 @@ export default {
     ]
   },
   env: {
-    baseURL: (process.env.NODE_ENV === 'production' ? 'https://ramadan-table.now.sh/' : 'http://localhost:3000')
+    baseURL: (process.env.NODE_ENV === 'production' ? 'https://ramadan-table.now.sh' : 'http://localhost:3000')
   },
   loading: { color: '#fff' },
   css: [
@@ -23,7 +23,7 @@ export default {
   buildModules: [
     '@nuxtjs/tailwindcss',
     ['@nuxtjs/google-analytics', {
-      id: 'UA-12301-2'
+      id: 'UA-115308094-14'
     }]
   ],
   modules: [

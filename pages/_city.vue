@@ -69,7 +69,7 @@ export default {
   },
   mounted() {
     this.$axios
-      .get(`${this.$route.params.city}.json`)
+      .get(`${process.env.baseURL}/${this.$route.params.city}.json`)
       .then(resp => {
         this.time_table = resp.data.time_table;
         this.city = resp.data.name;
