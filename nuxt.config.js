@@ -31,6 +31,11 @@ export default {
     '@nuxtjs/pwa',
     'nuxt-webfontloader',
   ],
+  pwa: {
+    manifest: {
+      name: 'Ramadan Table'
+    }
+  },
   webfontloader: {
     google: {
       families: ['Josefin+Sans:400,500,700,800?display=swap']
